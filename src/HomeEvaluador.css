@@ -1,0 +1,103 @@
+/* HomeEvaluador.css */
+
+.evaluador-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 32px 28px 24px 28px;
+}
+
+.evaluador-container h2 {
+  color: #2d3a4b;
+  margin-bottom: 8px;
+}
+
+.evaluador-container p {
+  color: #4a5568;
+  margin-bottom: 18px;
+}
+
+.evaluador-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.evaluador-btn:hover {
+  background: #1e40af;
+}
+
+.evaluador-table-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: #f9fafb;
+}
+
+.evaluador-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.evaluador-table th, .evaluador-table td {
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.evaluador-table th {
+  background: #e0e7ef;
+  color: #2d3a4b;
+  font-weight: 600;
+}
+
+.evaluador-table tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+.evaluador-input {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8fafc;
+  margin-bottom: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+.evaluador-input:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 8px;
+  min-width: 320px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+}
+.modal-content input {
+  width: 100%;
+  margin-bottom: 10px;
+}
